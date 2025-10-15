@@ -12,7 +12,7 @@ function App() {
     <>
       <Header resultsObjs={setResultsImages} keywords={searchValue} setKeywords={setSeachValue}/>
       
-      <div className="border-4 border-double rounded-2xl p-5 bg-white overflow-y-scroll h-[31rem] custom-scrollbar">
+      <div className="border-4 border-double rounded-2xl p-3 sm:p-5 bg-white overflow-y-scroll h-[31rem] sm:h-[35rem] md:h-[31rem] custom-scrollbar">
         {/* its show as home page */}
         {resultsImages.length === 0 && (
             <HomeImgGallary/>

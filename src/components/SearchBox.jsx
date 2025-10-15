@@ -26,7 +26,7 @@ export default function SearchBox({ resultsObj, keyword, setKeyword }) { //resul
   }
 
   return(
-    <div className="mt-6 p-4 flex">
+    <div className="mt-6 p-4 flex w-full sm:w-3/4 md:w-1/2 mx-auto">
       <Input value={keyword} onChange={handleInputChange}/>
 
       <SearchButton handleClick={SearchImage}/>

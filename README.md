@@ -9,7 +9,7 @@ Check out the live demo: [Image Gallery](https://image-gallary00.netlify.app/)
 ## ✨ Features
 
 - 🔍 **Smart Search**: Search for images using keywords
-<!-- - 📱 **Responsive Design**: Works seamlessly on all devices -->
+- 📱 **Responsive Design**: Works seamlessly on all devices
 - ⚡ **Fast Performance**: Built with Vite for lightning-fast development and builds
 - 🎨 **Beautiful UI**: Styled with Tailwind CSS for a modern look
 - 🔄 **Load More**: Pagination support to load additional images
